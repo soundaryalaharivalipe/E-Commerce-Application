@@ -42,3 +42,41 @@ This E-Commerce Application is a full-stack web project designed to simulate a f
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/soundaryalaharivalipe/E-Commerce-Application.git
+
+2. **Backend Setup**:
+
+   1. Navigate to the `Backend` folder.
+   2. Run `dotnet restore` to install dependencies.
+   3. Update `appsettings.json` with your SQL Server connection string.
+   4. Run `dotnet ef database update` to apply migrations.
+   5. Start the backend server with `dotnet run`.
+
+3. **Frontend Setup**:
+
+   1. Navigate to the `Frontend` folder.
+   2. Run `npm install` to install Angular dependencies.
+   3. Start the Angular application with `ng serve`.
+
+4. **Database Setup**:
+
+   1. Execute the SQL scripts in the `Database` folder to set up the database schema and seed data.
+
+## Running the Application
+
+- Access the frontend at `http://localhost:4200/`.
+- The backend API can be accessed via `http://localhost:5000/api/`.
+
+## Usage
+
+- **Admin Panel**: Login as an admin to manage products, view orders, and manage users.
+- **Customer Interface**: Browse products, manage your cart, and place orders.
+- **Order Tracking**: After placing an order, view its status and history.
+
+## Contributing
+
+Contributions are welcome! To contribute:
+
+1. Fork the repository.
+2. Create a new branch (`feature/YourFeature`).
+3. Commit your changes.
+4. Push to the branch and create a pull request.
